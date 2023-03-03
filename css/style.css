@@ -1,0 +1,65 @@
+h1{
+    font-size: 75px;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(224, 179, 119);
+    text-align: center;
+}
+
+
+ 
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(243, 200, 135); /* Le fond de la page sera noir */
+    color: rgb(15, 15, 15); /* Le texte de la page sera blanc */
+}
+p{
+    text-align: left;
+}
+h3{
+
+}
