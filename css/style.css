@@ -63,3 +63,8 @@ p{
 h3{
 
 }
+.image2{
+    display: flex;
+    justify-content: center;
+}
+
