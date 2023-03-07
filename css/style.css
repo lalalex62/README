@@ -1,8 +1,7 @@
 h1{
     font-size: 75px;
-    color: brown;
+    color: rgb(219, 161, 161);
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(224, 179, 119);
     text-align: center;
 }
 
@@ -29,7 +28,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #080808;
 }
 
 li {
@@ -38,7 +37,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: rgb(247, 244, 244);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -46,25 +45,37 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #f0dddd;
 }
 h2{
     font-size: 45px;
     text-align: center;
 }
+h3{
+    font-size: 25px;
+    text-align: center;
+}
 
 body {
-    background-color: rgb(243, 200, 135); /* Le fond de la page sera noir */
+    background-color: rgb(240, 200, 200); /* Le fond de la page sera noir */
     color: rgb(15, 15, 15); /* Le texte de la page sera blanc */
 }
 p{
-    text-align: left;
+    text-align: justify;
+    font-size: 20px;
 }
-h3{
 
-}
 .image2{
     display: flex;
     justify-content: center;
 }
+
+div{
+    font-size: 20px;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+
 
