@@ -1,4 +1,7 @@
+
+
 h1{
+
     font-size: 75px;
     color: rgb(219, 161, 161);
     font-family: 'Times New Roman', Times, serif;
@@ -8,56 +11,47 @@ h1{
 
 
  
-.image{
+div{
     display: flex;
     justify-content: center;
     height: 300px;
     width: 300px;
-    margin: auto;
-    
-    
-}
-
-
+    margin: auto; 
+}    
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        margin: 25px;
+    }
+    
 li {
-    float: left;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #080808;
-    margin: 25px;
-}
-
-li {
-    float: left;
-}
-
+        float: left;
+    }
+    
 li a {
-    display: block;
-    color: rgb(247, 244, 244);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #f0dddd;
-    margin: 25px;
-}
+        background-color: #111;
+    }  
+
+
 h2{
-    font-size: 45px;
+    font-size: 24px;
     text-align: center;
+    line-height: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
 }
 h3{
     font-size: 25px;
@@ -67,17 +61,20 @@ h3{
 body {
     background-color: rgb(240, 200, 200); /* Le fond de la page sera noir */
     color: rgb(15, 15, 15); /* Le texte de la page sera blanc */
+    
 }
 p{
     text-align: justify;
     font-size: 20px;
     margin: 25px;
+    font-weight: 100;
 }
 
 .image2{
     display: flex;
     justify-content: center;
 }
+    
 
 div{
     font-size: 20px;
@@ -88,11 +85,12 @@ div{
     text-align: center;
 }
 
-
-footer{
-    background-color: #080808;
-    color: #f0dddd;
-    margin: 25px;
+.footer{
+    text-align: center;
+    background-color: #111;
+    color: aliceblue;
+    line-height: 25px;
+   
 }
 div{
     text-align: center;
@@ -102,4 +100,24 @@ h4{
     margin: 25px;
     font-size: 22px;
 }
+ul{
+    text-align: center;
+}
 
+.objectifs{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.liste{
+    text-align: right;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 50px;
+
+}
+
+
+.style1{
+    text-align: justify;
+}
