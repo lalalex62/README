@@ -1,5 +1,4 @@
 
-
 h1{
 
     font-size: 75px;
@@ -11,7 +10,7 @@ h1{
 
 
  
-div{
+.photo{
     display: flex;
     justify-content: center;
     height: 300px;
@@ -19,8 +18,7 @@ div{
     margin: auto; 
 }    
 
-ul {
-        list-style-type: none;
+.nav{
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -28,20 +26,20 @@ ul {
         margin: 25px;
     }
     
-li {
-        float: left;
-    }
+
+
+
     
-li a {
-        display: block;
+.nav a{
         color: white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        height: 100px;
     }
     
     /* Change the link color to #111 (black) on hover */
-li a:hover {
+.nav a:hover {
         background-color: #111;
     }  
 
@@ -51,7 +49,7 @@ h2{
     text-align: center;
     line-height: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: auto;
+    margin: 35px;
 }
 h3{
     font-size: 25px;
@@ -63,12 +61,7 @@ body {
     color: rgb(15, 15, 15); /* Le texte de la page sera blanc */
     
 }
-p{
-    text-align: justify;
-    font-size: 20px;
-    margin: 25px;
-    font-weight: 100;
-}
+
 
 .image2{
     display: flex;
@@ -76,7 +69,7 @@ p{
 }
     
 
-div{
+.div{
     font-size: 20px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -92,9 +85,7 @@ div{
     line-height: 25px;
    
 }
-div{
-    text-align: center;
-}
+
 h4{
     font-family: 'Times New Roman', Times, serif;
     margin: 25px;
@@ -110,14 +101,60 @@ ul{
 }
 
 .liste{
-    text-align: right;
-    text-align: justify;
+    
     font-size: 20px;
     line-height: 50px;
+    text-align: center;
+    
+
 
 }
-
+ul{
+    list-style-type: none;
+}
 
 .style1{
     text-align: justify;
 }
+
+.center{
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    padding: center;
+}
+
+.table{
+        
+        margin: auto;
+       
+       
+        border: medium solid #020202;
+        border-collapse: collapse;
+        width: 50%;
+        }
+        th {
+        font-family: monospace;
+        border: thin solid #fafafa;
+        width: 50%;
+        padding: 5px;
+        background-color: #fff8f8;
+        background-image: url(sky.jpg);
+        }
+        td {
+        font-family: sans-serif;
+        border: thin solid #fafafa;
+        width: 50%;
+        padding: 5px;
+        text-align: center;
+        background-color: #f5f0f0;
+        }
+        caption {
+        font-family: sans-serif;
+        align: center;
+        }
+
+    
+
+    
