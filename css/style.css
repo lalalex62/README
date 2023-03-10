@@ -2,7 +2,7 @@
 h1{
 
     font-size: 75px;
-    color: rgb(219, 161, 161);
+    color: rgb(16, 17, 16);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
    
@@ -22,7 +22,7 @@ h1{
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #333;
+        background-color: #49443c;
         margin: 25px;
     }
     
@@ -57,7 +57,7 @@ h3{
 }
 
 body {
-    background-color: rgb(250, 206, 206); /* Le fond de la page sera noir */
+    background-color: rgb(209, 146, 150); /* Le fond de la page sera noir */
     color: rgb(15, 15, 15); /* Le texte de la page sera blanc */
     
 }
