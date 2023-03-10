@@ -1,9 +1,9 @@
 
 h1{
 
-    font-size: 75px;
+    font-size: 60px;
     color: rgb(16, 17, 16);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
    
 }
@@ -19,17 +19,9 @@ h1{
 }    
 
 .nav{
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #49443c;
         margin: 25px;
-    }
-    
-
-
-
-    
+       
+    }   
 .nav a{
         color: white;
         text-align: center;
