@@ -57,7 +57,7 @@ h3{
 }
 
 body {
-    background-color: rgb(240, 200, 200); /* Le fond de la page sera noir */
+    background-color: rgb(250, 206, 206); /* Le fond de la page sera noir */
     color: rgb(15, 15, 15); /* Le texte de la page sera blanc */
     
 }
@@ -102,12 +102,19 @@ ul{
 
 .liste{
     
-    font-size: 20px;
+    font-size: 15px;
     line-height: 50px;
     text-align: center;
+    width: 400px;
+    margin: auto;
     
-
-
+    
+}
+ol{
+    text-align: justify;
+    
+    
+    
 }
 ul{
     list-style-type: none;
@@ -118,43 +125,53 @@ ul{
 }
 
 .center{
-    max-width: 700px;
+    max-width: 271px;
     margin: auto;
     font-size: 18px;
     text-align: center;
     padding: center;
 }
 
-.table{
-        
-        margin: auto;
-       
-       
-        border: medium solid #020202;
-        border-collapse: collapse;
-        width: 50%;
-        }
-        th {
-        font-family: monospace;
-        border: thin solid #fafafa;
-        width: 50%;
-        padding: 5px;
-        background-color: #fff8f8;
-        background-image: url(sky.jpg);
-        }
-        td {
-        font-family: sans-serif;
-        border: thin solid #fafafa;
-        width: 50%;
-        padding: 5px;
-        text-align: center;
-        background-color: #f5f0f0;
-        }
-        caption {
-        font-family: sans-serif;
-        align: center;
-        }
-
+table{
+    margin: auto;
     
-
     
+    
+}
+.tableau{
+    align-items: center;
+    margin: auto;
+    text-align: center;
+
+}
+
+th{
+    font-family: monospace;
+    border: thin old;
+    width: 50%;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+  
+}
+td{
+    font-family: monospace;
+    border: thin old;
+    width: 50%;
+    padding: 5px;
+    background-color: rgb(255, 255, 255); 
+}
+.mespassions{
+    max-width: 510px;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    padding: center;
+}
+.index{
+    max-width: 510px;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    padding: center;
+
+}
