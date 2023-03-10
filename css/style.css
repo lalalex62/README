@@ -2,7 +2,7 @@
 h1{
 
     font-size: 60px;
-    color: rgb(16, 17, 16);
+    color: rgb(247, 250, 247);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
    
@@ -42,14 +42,16 @@ h2{
     line-height: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 35px;
+    color: rgb(247, 250, 247);
 }
 h3{
     font-size: 25px;
     text-align: center;
+    color: rgb(247, 250, 247);
 }
 
 body {
-    background-color: rgb(209, 146, 150); /* Le fond de la page sera noir */
+    background-color: rgb(88, 43, 45); /* Le fond de la page sera noir */
     color: rgb(15, 15, 15); /* Le texte de la page sera blanc */
     
 }
@@ -72,9 +74,10 @@ body {
 
 .footer{
     text-align: center;
-    background-color: #111;
+    background-color: #fffcfc;
     color: aliceblue;
     line-height: 25px;
+    color: rgb(247, 250, 247);
    
 }
 
@@ -95,10 +98,10 @@ ul{
 .liste{
     
     font-size: 15px;
-    line-height: 50px;
-    text-align: center;
     width: 400px;
     margin: auto;
+    color: rgb(247, 250, 247);
+    font-size: large;
     
     
 }
@@ -122,6 +125,7 @@ ul{
     font-size: 18px;
     text-align: center;
     padding: center;
+    color: rgb(247, 250, 247);
 }
 
 table{
@@ -158,6 +162,7 @@ td{
     font-size: 18px;
     text-align: center;
     padding: center;
+    color: rgb(247, 250, 247);
 }
 .index{
     max-width: 510px;
@@ -166,4 +171,9 @@ td{
     text-align: center;
     padding: center;
 
+}
+.copyright{
+    color: rgb(247, 250, 247);
+    text-align: center;
+    
 }
